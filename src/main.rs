@@ -16,8 +16,11 @@ use std::{
 // #[path = "utils/project_carbon.rs"]
 //mod project_carbon;
 fn main() {
-    let car = traits_example::Sedon;
-    car.drive();
+    let newCar = traits_example::RacingCars {
+        modal: "Aditya",
+        year: 2022,
+    };
+    newCar.mercedes();
 }
 
 fn server_testing() {
